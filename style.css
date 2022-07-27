@@ -8175,7 +8175,6 @@ p.wp-caption-text {
 .product {
 	position: relative;
 }
-
 .product .product-image {
 	position: relative;
 	overflow: hidden;
@@ -14455,6 +14454,10 @@ body:not(.device-touch) .tagcloud a {
 	color: #444;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
+	font-size: 21px;
+	font-style: normal;
+	padding: 5%;
+	text-align: center;
 }
 
 .widget-filter-links li span {
@@ -16525,3 +16528,115 @@ label.checkbox { padding-left: 20px; }
 	animation-name: fadeOutUpSmall;
 }
 
+.product-item {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px 10px 5px 10px;
+	border: 1px solid #eee;
+	background: white;
+	font-family: "Open Sans";
+	overflow: hidden;
+	transition: .4s linear;
+ }
+ .product-img {
+	transition: 0.5s ease-in-out;
+ }
+ .product-img:hover {
+	transform: scale(1.1);
+ }
+ .product-img img {
+	display: block;
+	width: 100%;
+ }
+ .product-list {
+	margin-top: 15px;
+ }
+ .product-list h3 {
+	font-weight: 700;
+	color: #39404B;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 2;
+ }
+ .price {
+	color: #E34D38;
+	display: block;
+	margin-bottom: 12px;
+ }
+ .stars {
+	height: 14px;
+	line-height: 14px;
+	margin: 7px 0;
+ }
+ .stars:before {
+	content: "\f005\f005\f005\f005\f006";
+	color: #EFB71C;
+	font-size: 14px;
+	font-family: FontAwesome;
+ }
+ .actions {
+	border-top: 1px solid #eee;
+	padding-top: 4px;
+	font-size: 13px;
+	height: 30px;
+	line-height: 30px;
+ }
+ .actions:after {
+	content: "";
+	display: table;
+	clear: both;
+ }
+ .add-to-cart, .add-to-links {
+	float: left;
+ }
+ .cart-button {
+	text-decoration: none;
+	color: #8C877C;
+	padding-right: 20px;
+	border-right: 1px solid #ddd;
+	transition: .4s linear;
+ }
+ .cart-button:before {
+	content: "\f07a";
+	font-family: FontAwesome;
+	margin-right: 10px;
+ }
+ .add-to-cart:hover .cart-button, .wishlist:hover, .compare:hover {
+	color: #E34D38;
+ }
+ .wishlist, .compare {
+	color: #8C877C;
+	padding-left: 20px;
+	transition: .4s linear;
+ }
+ .wishlist:after, .compare:after {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 13px;
+ }
+ .wishlist:after {
+	content: "\f004";
+ }
+ .compare:after {
+	content: "\f079";
+ }
+ .link{
+	border-radius: 5px;
+ }
+ .link:hover{
+	background-color: #e74d3c69;
+	transition: 0.9s ease;
+
+ }
+ .link-text{
+	text-align: center;
+	font-size: 16px;
+ }
+ .link-text:hover{
+	color: #000;
+	
+ }
+ .widget-filter-links li a:hover{
+	color: #000;
+ }
