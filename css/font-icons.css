@@ -782,6 +782,7 @@
 }
 .icon-mail:before {
 	content: "\e6ab";
+	color: #e74d3c69;
 }
 .icon-like:before {
 	content: "\e6ac";
@@ -921,9 +922,7 @@
 .icon-repeat:before {
 	content: "\e6d9";
 }
-.icon-refresh2:before {
-	content: "\e6da";
-}
+
 .icon-list-alt2:before {
 	content: "\e6db";
 }
@@ -1016,6 +1015,7 @@
 }
 .icon-map-marker2:before {
 	content: "\e6f9";
+	color: #e74d3c69;
 }
 .icon-adjust1:before {
 	content: "\e6fa";
@@ -1253,6 +1253,7 @@
 }
 .icon-phone3:before {
 	content: "\e748";
+	color: #e74d3c69;
 }
 .icon-check-empty:before {
 	content: "\e749";
@@ -1265,6 +1266,7 @@
 }
 .icon-twitter2:before {
 	content: "\e74c";
+	color: #e74d3c69;
 }
 .icon-facebook2:before {
 	content: "\e74d";
@@ -1874,6 +1876,7 @@
 }
 .icon-skype2:before {
 	content: "\e817";
+	color: #e74d3c69;
 }
 .icon-foursquare2:before {
 	content: "\e818";
@@ -5633,6 +5636,7 @@
 }
 .icon-instagram:before {
 	content: "\ed71";
+	color: #e74d3c69;
 }
 .icon-internet-explorer:before {
 	content: "\ed72";

@@ -11,6 +11,8 @@
 .dark h5,
 .dark h6 {
 	color: #EEE;
+	text-align: center;
+	font-size: 20px;
 }
 
 .dark a:not([class*="btn-"]):hover {
@@ -596,12 +598,14 @@ body #side-panel.dark {
 .dark .entry-title h3 a,
 .dark .entry-title h4 a {
 	color: #F7F7F7;
+	font-size: 20px;
+	font-weight: 400;
 }
 
 .dark .entry-title h2 a:hover,
 .dark .entry-title h3 a:hover,
 .dark .entry-title h4 a:hover {
-	color: #1ABC9C;
+	color: #eca39b;
 }
 
 .dark .entry-meta li,

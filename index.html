@@ -5,8 +5,6 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
 
-	<link rel="icon" href="./candy_images/Logo_Altyn_Sohle-01-01.webp" type="image/x-icon" />
-
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
@@ -28,17 +26,34 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Altyn Shohle</title>
+	<title>Altyn Shohle - Bash Sahypa</title>
 
 	<style>
 
-		.tp-caption.News-Title {
+		.revo-slider-emphasis-text {
+			font-size: 64px;
 			font-weight: 700;
 			letter-spacing: -1px;
 			font-family: 'Poppins', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
 		}
 
-		.tp-caption.News-Subtitle { font-family: 'PT Serif'; }
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Poppins', sans-serif;
+		}
 		.tp-video-play-button { display: none !important; }
 
 		.tp-caption { white-space: nowrap; }
@@ -53,10 +68,9 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-
-		<!-- Header
+				<!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header floating-header">
+		<header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -64,11 +78,16 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="./candy_images/Logo_Altyn_Sohle-01-01.webp" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="./candy_images/Logo_Altyn_Sohle-01-01.webp" alt="Canvas Logo"></a>
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="./candy_images/Logo_Altyn_Sohle-01-01.webp" alt="Altynshohle"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="./candy_images/Logo_Altyn_Sohle-01-01.webp" alt="Altynshohle"></a>
 						</div><!-- #logo end -->
 
-						
+					
+
+							
+							
+
+				
 
 						<div id="primary-menu-trigger">
 							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
@@ -88,10 +107,26 @@
 								</li> -->
 								<li class="menu-item">
 									<a class="menu-link" href="./products.html"><div>Products</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="intro.html#section-niche"><div>Suyji</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="intro.html#section-niche"><div>Iris</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="intro.html#section-niche"><div>Shokolad</div></a>
+										</li>										
+									</ul>
 								</li>
-								<!-- <li class="menu-item">
-									<a class="menu-link" href="#"><div>Contacts</div></a>
-								</li> -->
+								<li class="menu-item">
+									<a class="menu-link" href="./about-us.html"><div>About us</div></a>
+								</li>
+
+								<li class="menu-item">
+									<a class="menu-link" href="./contact-2.html"><div>Contact</div></a>
+									
+								</li>
 								<li class="menu-item">
 									<a class="menu-link" href="#"><div>Language</div></a>
 									<ul class="sub-menu-container">
@@ -106,13 +141,13 @@
 										</li>										
 									</ul>
 								</li>
+						
 
 							</ul>
 
 
 						</nav><!-- #primary-menu end -->
-
-						
+					
 
 					</div>
 				</div>
@@ -121,60 +156,63 @@
 		</header><!-- #header end -->
 
 
+
 		<!-- Slider
 		============================================= -->
+		<section id="slider" class="slider-element revslider-wrap topmargin">
+			<div class="container">
 
-		<section id="slider" class="slider-element revslider-wrap">
-			<!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
-			<div id="rev_slider_54_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="showcase-carousel" style="margin:0px auto;padding:0px;margin-top:0px;margin-bottom:0px;background-image:url(include/rs-plugin/demos/assets/images/webproduct_darkbg3.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;">
-				<!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
-				<div id="rev_slider_54_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
-					<ul>	<!-- SLIDE  -->
-						<li data-index="rs-204" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="./candy_images/1.png"  data-rotate="0"  data-saveperformance="off"  data-title="Number One" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="./candy_images/1.png"  alt="Image"  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-							<!-- LAYERS -->
-						</li>
-						<!-- SLIDE  -->
-						<li data-index="rs-205" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="./candy_images/2.png"  data-rotate="0"  data-saveperformance="off"  data-title="Number Two" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="./candy_images/2.png"  alt="Image"  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-							<!-- LAYERS -->
-						</li>
-						<!-- SLIDE  -->
-						<li data-index="rs-206" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="./candy_images/3.png"  data-rotate="0"  data-saveperformance="off"  data-title="Number Three" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="./candy_images/3.png"  alt="Image"  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-							<!-- LAYERS -->
-						</li>
-						<!-- SLIDE  -->
-						<li data-index="rs-207" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="./candy_images/4.png"  data-rotate="0"  data-saveperformance="off"  data-title="Number Four" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="./candy_images/4.png"  alt="Image"  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-							<!-- LAYERS -->
-						</li>
-						<!-- SLIDE  -->
-						<li data-index="rs-208" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="./candy_images/5.png"  data-rotate="0"  data-saveperformance="off"  data-title="Number Five" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="./candy_images/5.png"  alt="Image"  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-							<!-- LAYERS -->
-						</li>						
-					</ul>
-					<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-				</div>
+				<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+					<!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+					<div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+						<ul>	<!-- SLIDE  -->
+							
+
+
+							<li data-index="rs-16" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="5000"  data-thumb="include/rs-plugin/demos/assets/images/datcolor-100x50.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="5000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="./candy_images/background/1.webp"  alt="Image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+								
+
+							</li>
+
+							<li data-index="rs-16" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="5000"  data-thumb="include/rs-plugin/demos/assets/images/datcolor-100x50.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="5000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="./candy_images/background/2.jpeg"  alt="Image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+								
+
+							</li>
+
+							<li data-index="rs-16" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="5000"  data-thumb="include/rs-plugin/demos/assets/images/datcolor-100x50.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="5000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="./candy_images/background/3.jpeg"  alt="Image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+								
+
+							</li>
+
+
+
+							
+						
+						</ul>
+						<div class="tp-static-layers"></div>
+						<div class="tp-bannertimer" style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>
+					</div>
+				</div><!-- END REVOLUTION SLIDER -->
+
 			</div>
 		</section>
 
 
 		<div class="section border-top-0 m-0">
 			<div class="container text-center">
-
+				
 				<div class="heading-block center">
 					<h2>ALTYN ŞÖHLE HUSUSY KÄRHANASY.</h2>
 				</div>
-
-				<p>2022-nji ýyldan bäri Altyn Şöhle kärhanasy dürli konditer önümlerini öndürýär we halka hödürleýär. Önümlerimiz içerki bazarymyza elýeterli we adalatly bahalarda doly üpjün edilýär.</p>
-
+				
+				<p>2022-nji ýyldan bäri Altyn Şöhle kärhanasy dürli konditer önümlerini öndürýär we halka hödürleýär. Önümlerimiz içerki bazarymyza elýeterli we adalatly bahalarda doly üpjün edilýär. Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio voluptatibus officiis sunt. Est praesentium suscipit magnam ut nobis, dolorum porro optio placeat fuga soluta dolores doloremque quod vitae, quam quis consectetur id similique hic? Doloremque at sapiente mollitia eligendi architecto delectus, perspiciatis officiis quas, odio accusantium animi sint, voluptatem debitis nobis est culpa maxime quis libero minus fugit hic a. Laudantium inventore alias labore vitae vel beatae quam deleniti. Dolores possimus officiis iste veritatis fuga culpa hic repellat, nisi officia error id facere cupiditate iure ad vel ab rem non, sint repudiandae necessitatibus! Ipsum impedit neque totam. Rerum vel temporibus numquam. Consequatur, qui nisi sit porro animi quia maxime illum libero mollitia ullam eum aliquam reiciendis explicabo minima placeat a nobis reprehenderit dolore dignissimos omnis numquam at eveniet odio officiis. Ex, perferendis beatae. In deleniti praesentium ullam vitae aspernatur laudantium eaque quasi! Fuga ad, non quaerat ut asperiores eos.</p>
+				
 			</div>
 		</div>
 
@@ -190,6 +228,8 @@
 
 			</div>
 		</div>
+
+
 				<!-- Content
 		============================================= -->
 		<section id="content">
@@ -211,7 +251,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="flip-card-back" style="background-image: url('demos/business/images/Logo_Altyn_Sohle-01-01.webp');">
+								<div class="flip-card-back" style="background-image: url('./candy_images/background/1.png');">
 									<div class="flip-card-inner">
 										<p class="mb-2 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit.</p>
 										<button type="button" class="btn btn-outline-light mt-2">View Details</button>
@@ -273,18 +313,156 @@
 		</section><!-- #content end -->
 
 
-		
-		<!-- <div class="center">
 
+
+		<section id="content">
+			<div class="content-wrap">
+				<div class="section mb-0 pb-0 border-0">
+					<div class="container clearfix">
+						<h3 class="center bottommargin">Related Projects:</h3>
+					</div>
+				</div>
+
+				<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel footer-stick carousel-widget" data-margin="1" data-pagi="false" data-autoplay="5000" data-loop="true" data-items-xs="1" data-items-sm="2" data-items-md="4" data-items-xl="4">
+
+					<div class="oc-item">
+						<div class="portfolio-item">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="./candy_images/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="oc-item">
+						<div class="portfolio-item">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="./candy_images/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="oc-item">
+						<div class="portfolio-item">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="./candy_images/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="oc-item">
+						<div class="portfolio-item">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="./candy_images/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="oc-item">
+						<div class="portfolio-item">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="./candy_images/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="oc-item">
+						<div class="portfolio-item">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="./candy_images/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
+							</div>
+						</div>
+					</div>
+					
+				</div><!-- .portfolio-carousel end -->
 			
 
-			<a href="side-panel-left-overlay.html" class="button button-rounded button-reveal button-large button-white button-light text-right">Iriska</a>
-			<a href="side-panel-left-overlay.html" class="button button-rounded button-reveal button-large button-white button-light text-right">Marmelad</a>
-			<a href="side-panel-left-overlay.html" class="button button-rounded button-reveal button-large button-white button-light text-right">Shocolad</a>
-			<a href="side-panel-left-overlay.html" class="button button-rounded button-reveal button-large button-white button-light text-right">Candy</a>
-		
 
-		</div> -->
+				
+			
+			</div>
+		</div>
 
 		<div class="section border-top-0 m-0">
 			<div class="container text-center">
@@ -299,7 +477,7 @@
 		</div>
 
 
-		<!-- Content
+				<!-- Content
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap">
@@ -457,72 +635,115 @@
 		<!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">
+			<div class="container">
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+
+
+
+
+
+						
+						<div class="col-lg-6">
+
+							<div class="widget clearfix">
+
+								<img src="./candy_images/Logo_Altyn_Sohle-01-01.webp" alt="Image" class="footer-logo">
+
+								
+								<div class="py-2" style="background: url('images/world-map.png') no-repeat center center;">
+									<div class="row col-mb-30">
+										<div class="col-6">
+											<address class="mb-0">
+												<abbr title="Headquarters" style="display: inline-block;margin-bottom: 7px;"><strong>Headquarters:</strong></abbr><br>
+												795 Folsom Ave, Suite 600<br>
+												San Francisco, CA 94107<br>
+											</address>
+										</div>
+										<div class="col-6">
+											<abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
+											<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
+											<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+										</div>
+									</div>
+								</div>
+								<div class="social-link">
+									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+	
+									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+	
+									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-gplus">
+										<i class="icon-gplus"></i>
+										<i class="icon-gplus"></i>
+									</a>
+	
+									<a href="#" class="social-icon si-small si-rounded topmargin-sm si-pinterest">
+										<i class="icon-pinterest"></i>
+										<i class="icon-pinterest"></i>
+									</a>
+	
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+
+						<div class="col-sm-6 col-lg-6">
+
+							<div class="widget clearfix">
+								<h4 style="padding-top: 15%;">Recent Posts</h4>
+
+								<div class="posts-sm row col-mb-30" id="post-list-footer">
+									<div class="entry col-12">
+										<div class="grid-inner row">
+											<div class="col">
+												<div class="entry-title">
+													<h4 >Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt porro dicta tenetur qui odit accusamus molestias reiciendis incidunt velit ipsa. In ex eius delectus autem!</h4>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
 
 			<!-- Copyrights
 			============================================= -->
 			<div id="copyrights">
 				<div class="container">
 
-					<div class="row col-mb-30">
-
-						<div class="col-md-6 text-center text-md-left">
-							Copyrights &copy; 2020 All Rights Reserved by Altynshohle Comp.<br>
+					<div class="w-100 text-center">
+						<div class="copyrights-menu copyright-links clearfix">
+							<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
 						</div>
-
-						<div class="col-md-6 text-center text-md-right">
-							<div class="d-flex justify-content-center justify-content-md-end">
-								<a href="#" class="social-icon si-small si-borderless si-facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-gplus">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-pinterest">
-									<i class="icon-pinterest"></i>
-									<i class="icon-pinterest"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-vimeo">
-									<i class="icon-vimeo"></i>
-									<i class="icon-vimeo"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-github">
-									<i class="icon-github"></i>
-									<i class="icon-github"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-yahoo">
-									<i class="icon-yahoo"></i>
-									<i class="icon-yahoo"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-linkedin">
-									<i class="icon-linkedin"></i>
-									<i class="icon-linkedin"></i>
-								</a>
-							</div>
-
-							<div class="clear"></div>
-
-							<i class="icon-envelope2"></i> info@altynshohle.com.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +993630712345 <span class="middot">&middot;</span> <i class="icon-skype2"></i> Altynshohle
-						</div>
-
+						Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.
 					</div>
 
 				</div>
 			</div><!-- #copyrights end -->
-
 		</footer><!-- #footer end -->
+
 
 
 	</div><!-- #wrapper end -->
@@ -544,23 +765,26 @@
 	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-	<script src="include/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
 	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
 
 	<script>
 		var tpj=jQuery;
-		var revapi54;
+		var revapi4;
 		var $ = jQuery.noConflict();
-		
+
 		tpj(document).ready(function() {
-			if(tpj("#rev_slider_54_1").revolution == undefined){
-				revslider_showDoubleJqueryError("#rev_slider_54_1");
+			if(tpj("#rev_slider_4_1").revolution == undefined){
+				revslider_showDoubleJqueryError("#rev_slider_4_1");
 			}else{
-				revapi54 = tpj("#rev_slider_54_1").show().revolution({
-					sliderType:"carousel",
+				revapi4 = tpj("#rev_slider_4_1").show().revolution({
+					sliderType:"standard",
 					jsFileLocation:"include/rs-plugin/js/",
-					sliderLayout:"fullwidth",
+					sliderLayout:"auto",
 					dottedOverlay:"none",
 					delay:9000,
 					navigation: {
@@ -568,12 +792,23 @@
 						keyboard_direction: "horizontal",
 						mouseScrollNavigation:"off",
 						onHoverStop:"off",
+						touch:{
+							touchenabled:"on",
+							swipe_threshold: 75,
+							swipe_min_touches: 1,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						}
+						,
 						arrows: {
-							style:"erinyen",
+							style:"zeus",
 							enable:true,
-							hide_onmobile:false,
-							hide_onleave:false,
-							
+							hide_onmobile:true,
+							hide_under:600,
+							hide_onleave:true,
+							hide_delay:200,
+							hide_delay_mobile:1200,
+							tmp:'<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
 							left: {
 								h_align:"left",
 								v_align:"center",
@@ -586,33 +821,32 @@
 								h_offset:30,
 								v_offset:0
 							}
-						},
+						}
+						,
+						
 					},
-					carousel: {
-						maxRotation: 65,
-						vary_rotation: "on",
-						minScale: 55,
-						vary_scale: "off",
-						horizontal_align: "center",
-						vertical_align: "center",
-						fadeout: "on",
-						vary_fade: "on",
-						maxVisibleItems: 5,
-						infinity: "off",
-						space: -150,
-						stretch: "off"
+					viewPort: {
+						enable:true,
+						outof:"pause",
+						visible_area:"80%"
 					},
-					gridwidth:600,
-					gridheight:600,
+					responsiveLevels:[1240,1024,778,480],
+					gridwidth:[1240,1024,778,480],
+					gridheight:[600,600,500,400],
 					lazyType:"none",
+					parallax: {
+						type:"mouse",
+						origo:"slidercenter",
+						speed:2000,
+						levels:[2,3,4,5,6,7,12,16,10,50],
+					},
 					shadow:0,
 					spinner:"off",
-					stopLoop:"on",
-					stopAfterLoops:0,
-					stopAtSlide:1,
+					stopLoop:"off",
+					stopAfterLoops:-1,
+					stopAtSlide:-1,
 					shuffle:"off",
 					autoHeight:"off",
-					disableProgressBar:"on",
 					hideThumbsOnMobile:"off",
 					hideSliderAtLimit:0,
 					hideCaptionAtLimit:0,
