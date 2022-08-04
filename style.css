@@ -6868,6 +6868,7 @@ body:not(.device-touch) .portfolio {
 	padding: 0;
 	font-size: 1.25rem;
 	color: #e74d3c69;
+	text-align: center;
 }
 
 .portfolio-desc h3 a {
@@ -6875,7 +6876,7 @@ body:not(.device-touch) .portfolio {
 }
 
 .portfolio-desc h3 a:hover {
-	color: #1ABC9C;
+	color: #e74d3c69;
 }
 
 .portfolio-desc span {
@@ -8176,6 +8177,7 @@ p.wp-caption-text {
 .shop,
 .product {
 	position: relative;
+	height: 600px;
 }
 .product .product-image {
 	position: relative;
